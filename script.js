@@ -111,12 +111,12 @@ class Canvas {
     this.ctx.font = "30px 'Dancing Script', cursive"; 
     this.ctx.fillStyle = "white"; 
     this.ctx.textAlign = "right";
-    this.ctx.fillText("Para: Jesús ❤️", x-636, y-100);
-    this.ctx.fillText("Amor, hoy solo quiero decirte: Gracias, por ser parte de  ", x-200, y-50);
-    this.ctx.fillText("mi camino y permitirme estar en el tuyo, por quererme de", x-200, y);
-    this.ctx.fillText("la manera en que lo haces y hacerme sentir tan especial. ", x-200, y+50);
-    this.ctx.fillText("Gracias, porque mi vida es mejor desde que llegaste.", x-256, y+100);
-    this.ctx.fillText("Te quiero ❤️", x-670, y+150);
+    this.ctx.fillText("Para: Jesús ❤️", x, y-100);
+    this.ctx.fillText("Amor, hoy solo quiero decirte: Gracias, por ser parte de  ", x, y-50);
+    this.ctx.fillText("mi camino y permitirme estar en el tuyo, por quererme de", x, y);
+    this.ctx.fillText("la manera en que lo haces y hacerme sentir tan especial. ", x, y+50);
+    this.ctx.fillText("Gracias, porque mi vida es mejor desde que llegaste.", x, y+100);
+    this.ctx.fillText("Te quiero ❤️", x, y+150);
     this.ctx.restore();
 }
 
